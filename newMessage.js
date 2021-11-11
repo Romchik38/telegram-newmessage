@@ -11,9 +11,11 @@ const makeResponse = (num, str) => ({
 
 const newMessage = async ({ data, api, apiResponse, botToken }) => {
   try {
+    console.log({ data });
     const message = JSON.parse(data);
     const id = message.update_id;
     const result = cache(id);
+    if (result === true) return makeResponse(200, 'message already processed')
     try {
       //messageToSend = [{}, ...] or {}
       const messageToSend = await api({ message });
