@@ -1,6 +1,6 @@
 {
   "name": "telegram-newmessage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a layer between telegram and api. recieve message from telegram, send to api, await response and send answer to telegram",
   "main": "index.js",
   "directories": {
