@@ -1,0 +1,33 @@
+{
+  "name": "telegram-newmessage",
+  "version": "1.0.0",
+  "description": "a layer between telegram and api. recieve message from telegram, send to api, await response and send answer to telegram",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romchik38/telegram-newmessage.git"
+  },
+  "keywords": [
+    "telegram",
+    "api",
+    "message",
+    "send",
+    "answer",
+    "http"
+  ],
+  "author": "Romchik38",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Romchik38/telegram-newmessage/issues"
+  },
+  "homepage": "https://github.com/Romchik38/telegram-newmessage#readme",
+  "dependencies": {
+    "multipart-form": "^1.0.0"
+  }
+}
