@@ -1,0 +1,11 @@
+
+
+```javascript
+{
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: chat_id is empty'
+  }
+}
+```
